@@ -1,0 +1,33 @@
+.place__website_url-heading {
+    margin-top: 106px;
+    width: 456px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0.8px;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    margin-bottom: 12px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .place__website_url-heading {
+        max-width: 352px;
+        margin-top: 12px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .place__website_url-heading {
+        width: 288px;
+        height: 46px;
+        margin: 0 16px 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .place__website_url-heading {
+        width: 288px;
+        height: 46px;
+        margin: 0 16px 0;
+    }
+}

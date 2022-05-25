@@ -1,0 +1,29 @@
+.place__website_link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 0.8;
+    text-decoration-line: underline;
+    color: #fff;
+}
+
+.place__website_link:hover {
+    color: #AAAAAA;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .place__website_link {
+        margin-top: 12px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .place__website_link {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 425px) {
+    .place__website_link {
+        margin-left: 0px;
+    }
+}

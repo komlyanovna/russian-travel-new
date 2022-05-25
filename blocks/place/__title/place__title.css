@@ -1,0 +1,42 @@
+.place__title {
+    max-width: 460px;
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.15;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .place__title {
+        max-width: 29em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .place__title {
+        min-width: 340px;
+        font-size: 42px;
+        line-height: 0.92;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .place__title {
+        width: 288px;
+        height: 35px;
+        margin: 0 16px;
+        font-size: 32px;
+        line-height: 1.1;
+    }
+}
+
+@media (max-width: 425px) {
+    .place__title {
+        width: 288px;
+        height: 35px;
+        margin: 0 16px;
+        font-size: 32px;
+        line-height: 1.1;
+    }
+}
