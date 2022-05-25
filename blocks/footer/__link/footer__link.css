@@ -1,0 +1,30 @@
+.footer__link {
+    margin: auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.8;
+    text-decoration: none;
+    color: #FFF;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .footer__link {
+        margin: 0;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .footer__link {
+        margin: 0 112px auto 0;
+        font-size: 24px;
+        line-height: 1;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer__link {
+        margin: 0 112px auto 0;
+        font-size: 24px;
+        line-height: 1;
+    }
+}

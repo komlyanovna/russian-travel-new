@@ -1,0 +1,18 @@
+.link {
+    margin-top: 18px;
+    margin-left: auto;
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .link {
+        margin-left: auto;
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 425px) {
+    .link {
+        margin-left: auto;
+        margin-bottom: 8px;
+    } 
+}

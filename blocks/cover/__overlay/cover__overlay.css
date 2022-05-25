@@ -1,0 +1,33 @@
+.cover__overlay:hover {
+    max-width: 1184px;
+    opacity: 0.3;
+    background: rgba(42, 44, 47, 1);
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .cover__overlay:hover {
+        max-width: 1024px;
+        height: 640px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .cover__overlay:hover {
+        min-width: 768px;
+        min-height: 480px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .cover__overlay {
+        width: 320px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 425px) {
+    .cover__overlay {
+        width: 320px;
+        height: 200px;
+    }
+}

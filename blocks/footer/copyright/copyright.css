@@ -1,0 +1,19 @@
+.copyright {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    text-align: right;
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .copyright {
+        text-align: start;
+    }
+}
+
+@media (max-width: 425px) {
+    .copyright {
+        text-align: start;
+    }
+}
