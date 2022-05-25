@@ -1,0 +1,38 @@
+.lead__title {
+    width: 720px;
+    height: 200px;
+    margin: 0 132px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .lead__title {
+        width: 720px;
+        height: 200px;
+        margin: 0 24px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .lead__title {
+        width: 288px;
+        height: 88px;
+        margin: 0 auto;
+        font-size: 38px;
+        line-height: 0.9;
+    }
+}
+
+@media (max-width: 425px) {
+    .lead__title {
+        width: 288px;
+        height: 88px;
+        margin: 0 auto;
+        font-size: 38px;
+        line-height: 0.9;
+    }
+}
